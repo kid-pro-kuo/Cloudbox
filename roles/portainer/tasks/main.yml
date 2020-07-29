@@ -32,6 +32,7 @@
     image: "portainer/portainer"
     pull: yes
     published_ports:
+      - "127.0.0.1:8000:8000"
       - "127.0.0.1:9000:9000"
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
